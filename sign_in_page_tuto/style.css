@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Ubuntu",sans-serif;
+}
+
+.container{
+    padding: 0;
+    margin:30px auto;
+    width:600px;
+    height:700px;
+    overflow: hidden;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    box-shadow:0 0 10px rgba(0, 0, 0, .5);
+}
+.header{
+    padding:10px;
+    margin:0;
+    width:600px;
+    height:200px;
+    background-image: url("header.jpeg");
+    background-position: center;
+    text-align: center;
+    -webkit-filter:blur(4);
+    filter:blur(4);
+
+}
+.header h1{
+    line-height: 200px;
+    color:white;
+}
+.content{
+    padding: 20px 10px;
+    margin:0;
+    width: 600px;
+    height:500px;
+    background-color:#ecf0f1;
+    opacity:.7;
+}
+form input{
+    font-family: "Ubuntu",sans-serif;
+    display:block;
+}
+.firstname,.lastname{
+    width:39%;
+    height:40px;
+    padding:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+    background-color: white;
+    float:left;
+
+}
+.firstname{
+    margin-left: 58px;
+}
+.lastname{
+    margin-left:11px;
+}
+.username,.mail,.password{
+    width:80%;
+    height:40px;
+    padding: 10px;
+    margin:10px auto;
+    border:none;
+    border-radius:5px;
+    background-color:white;
+}
+.btnsignin,.btnreset{
+    width:39%;
+    height:40px;
+    padding: 10px;
+    background-color: #1abc9c;
+    color:white;
+    border:none;
+    border-radius:5px;
+    float:left;
+    cursor: pointer;
+}
+.btnsignin{
+    margin-left:58px;
+
+}
+.btnreset{
+    margin-left:11px;
+    margin-bottom:10px;
+}
+.btnsignin:hover,.btnreset:hover{
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    box-shadow:0 0 10px rgba(0, 0, 0, .5);
+}
+
+.socialmedia{
+    padding: 40px;
+    margin:10px;
+    color:#2c3e50;
+    text-align: center;
+    clear:both;
+}
+.signinface{
+    background-image: url("fb.png");
+    background-color:#383f87;
+    margin-left: 58px;
+}
+.signingoogle{
+    background-image: url("gp.png");
+    background-color:#ff3939;
+    margin-left: 11px;
+}
+.signinface,.signingoogle{
+    float:left;
+    width:39%;
+    height:40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:13%;
+    border:none;
+    border-radius:5px;
+}
+
+.signinface:hover,.signingoogle:hover{
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    box-shadow:0 0 10px rgba(0, 0, 0, .5);
+}
+
+.madeby{
+    text-align:center;
+    padding: 40px;
+    margin:10px;
+    color:#2c3e50;
+    clear:both;
+}
+.hearts{
+    font-size:24px;
+    color:#c0392b;
+
+}
+.sign{
+    color:#3498db;
+}
